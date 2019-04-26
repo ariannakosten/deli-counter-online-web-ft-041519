@@ -1,5 +1,7 @@
 #shows everyone their current place in the line. If nobody in line, put "The line is currently empty."
 
+katz_deli = []
+
 def line(array)
   arr2 = []
   if array.length == 0
@@ -14,7 +16,7 @@ end
 
 #the array for the current line of people (katz_deli), and a string containing the name of the person joining the end of the line. puts the person's name along with their position in line
 def take_a_number(katz_deli, name)
-  
+  katz_deli
   puts
 end
   
