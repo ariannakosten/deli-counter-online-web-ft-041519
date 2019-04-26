@@ -32,4 +32,4 @@ if array.empty?
     array.shift
   end
 end
-end
+
