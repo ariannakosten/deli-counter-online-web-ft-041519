@@ -1,6 +1,5 @@
-# Write your code here.
+#shows everyone their current place in the line. If nobody in line, put "The line is currently empty."
 
-  #shows everyone their current place in the line. If there is nobody in line, it should say "The line is currently empty."
 def line(array)
   arr2 = []
   if array.length == 0
