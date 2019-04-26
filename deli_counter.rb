@@ -14,9 +14,12 @@ def line(array)
   end
 end
 
-#the array for the current line of people (katz_deli), and a string containing the name of the person joining the end of the line. puts the person's name along with their position in line
-def take_a_number(array, name)
-  katz_deli
+#the array for the current line of people (katz_deli), and a string containing the name of the person joining the end of the line. puts the person's name along with their position in line.
+
+def take_a_number(katz_deli, name)
+  katz_deli.push(name)
+  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+end
   puts
 end
   
