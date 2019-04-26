@@ -2,7 +2,10 @@
 def line(names)
   #shows everyone their current place in the line. If there is nobody in line, it should say "The line is currently empty."
   katz_deli = []
+  if katz_deli = [] do |index, name|
   puts "The line is currently empty."
+  elsif 
+  puts "The line is currently: #{index} #{name}"
 end
 
 def take_a_number(katz_deli, name)
