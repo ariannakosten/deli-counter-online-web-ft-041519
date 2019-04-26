@@ -31,5 +31,3 @@ def now_serving(array)
     puts "Currently serving #{array.shift}."
   end 
 end 
-
-now_serving(katz_deli)
