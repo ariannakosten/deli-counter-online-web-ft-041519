@@ -4,7 +4,7 @@ def line(names)
 end
 
 def take_a_number(katz_deli, name)
-  #the person's name along with their position in line
+  #puts the person's name along with their position in line
   puts
   
 def now_serving
