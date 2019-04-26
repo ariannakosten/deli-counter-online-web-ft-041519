@@ -1,28 +1,13 @@
 # Write your code here.
-def line(array)
+
   #shows everyone their current place in the line. If there is nobody in line, it should say "The line is currently empty."
-
-
-def line(array) 
-  if array.length == 0 
-    puts "The line is currently empty."
-  else 
-    message = "The line is currently:"
-    
-  array.each_with_index do |name, index| 
-    message += " #{index.to_i+1}. #{name}"
-  end 
-  puts "#{message}"
-  end 
-end 
-
 def line(array)
   arr2 = []
   if array.length == 0
     puts "The line is currently empty."
   else
     array.each.with_index(1) do |name, index|
-      arr2.push("#{index}. #{name}")
+    arr2.push("#{index}. #{name}")
     end
     puts "The line is currently: #{arr2.join(" ")}"
   end
