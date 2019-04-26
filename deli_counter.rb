@@ -8,6 +8,18 @@ def line(names)
   puts "The line is currently: #{index} #{name}"
 end
 end
+def line(array) 
+  if array.length == 0 
+    puts "The line is currently empty."
+  else 
+    message = "The line is currently:"
+    
+  array.each_with_index do |value, index| 
+    message += " #{index.to_i+1}. #{value}"
+  end 
+  puts "#{message}"
+  end 
+end 
 
 def take_a_number(katz_deli, name)
   #the array for the current line of people (katz_deli), and a string containing the name of the person joining the end of the line. puts the person's name along with their position in line
