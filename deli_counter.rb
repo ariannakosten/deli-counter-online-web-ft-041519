@@ -1,13 +1,8 @@
 # Write your code here.
-def line(names)
+def line(array)
   #shows everyone their current place in the line. If there is nobody in line, it should say "The line is currently empty."
-  katz_deli = []
-  if katz_deli = [] 
-  puts "The line is currently empty."
-  elsif 
-  puts "The line is currently: #{index} #{name}"
-end
-end
+
+
 def line(array) 
   if array.length == 0 
     puts "The line is currently empty."
@@ -20,6 +15,18 @@ def line(array)
   puts "#{message}"
   end 
 end 
+
+def line(array)
+  arr2 = []
+  if array.length == 0
+    puts "The line is currently empty."
+  else
+    array.each.with_index(1) do |name, index|
+      arr2.push("#{index}. #{name}")
+    end
+    puts "The line is currently: #{arr2.join(" ")}"
+  end
+end
 
 def take_a_number(katz_deli, name)
   #the array for the current line of people (katz_deli), and a string containing the name of the person joining the end of the line. puts the person's name along with their position in line
